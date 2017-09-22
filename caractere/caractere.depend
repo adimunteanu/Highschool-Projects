@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1481788562 source:f:\codeblocks projects\caractere\main.cpp
+	<iostream>
+	<cstring>
+

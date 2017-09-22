@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1482491586 source:f:\codeblocks projects\dubluri\main.cpp
+	<iostream>
+	<cstring>
+

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1483116779 source:f:\codeblocks projects\insule\main.cpp
+	<fstream>
+

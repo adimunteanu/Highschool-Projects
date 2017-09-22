@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478726646 source:f:\codeblocks projects\sircarac1\main.cpp
+	<iostream>
+	<cstring>
+	<string>
+

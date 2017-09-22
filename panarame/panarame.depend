@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1485281018 source:f:\codeblocks projects\panarame\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+

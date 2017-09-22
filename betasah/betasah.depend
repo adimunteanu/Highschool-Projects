@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1489611516 source:f:\codeblocks projects\betasah\main.cpp
+	<fstream>
+

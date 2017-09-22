@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488649339 source:f:\codeblocks projects\cladire\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1487424003 source:f:\codeblocks projects\nr1894\main.cpp
+	<iostream>
+	<fstream>
+

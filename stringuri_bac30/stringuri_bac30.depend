@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1481054031 source:f:\codeblocks projects\stringuri_bac30\main.cpp
+	<iostream>
+	<cstring>
+

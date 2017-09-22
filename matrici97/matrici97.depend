@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490531888 source:f:\codeblocks projects\matrici97\main.cpp
+	<iostream>
+	<fstream>
+

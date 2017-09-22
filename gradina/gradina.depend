@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1489255049 source:f:\codeblocks projects\gradina\main.cpp
+	<fstream>
+

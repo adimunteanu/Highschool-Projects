@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506005490 source:e:\codeblocks projects\suma cifrelor functie\main.cpp
+	<iostream>
+	<fstream>
+

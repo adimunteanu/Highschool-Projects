@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1493548737 source:e:\codeblocks projects\iepuras\main.cpp
+	<iostream>
+	<fstream>
+

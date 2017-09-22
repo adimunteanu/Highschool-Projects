@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1488711677 source:f:\codeblocks projects\defrag\main.cpp
+	<fstream>
+

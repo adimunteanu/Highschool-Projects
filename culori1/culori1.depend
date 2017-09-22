@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489263775 source:f:\codeblocks projects\culori1\main.cpp
+	<fstream>
+	<cstring>
+

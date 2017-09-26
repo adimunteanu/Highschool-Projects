@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506460025 source:e:\codeblocks projects\varianta23_sub3_pb3\main.cpp
+	<iostream>
+	<algorithm>
+

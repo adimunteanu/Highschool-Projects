@@ -1,6 +1,9 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
+
+int a[4],b[4];
 
 int verif(int a, int b, int c)
 {
@@ -11,55 +14,27 @@ int verif(int a, int b, int c)
 
 int main()
 {
-    int a, b, c, x, y, z;
-    cin >> a >> b >> c >> x >> y >> z;
+    bool ok = true;
+    for(int i = 1; i <= 3; i++)
+        cin >> a[i];
+    for(int i = 1; i <= 3; i++)
+        cin >> b[i];
 
-    if((verif(a, b, c) == 0) || (verif(x, y, z) == 0))
+    if((verif(a[1], a[2], a[3]) == 0) || (verif(b[1], b[2], b[3]) == 0))
         cout << "nu";
-    else
-        if(a == x)
-            if(b == y)
-                if(c == z)
-                    cout << "congruente";
-                else
-                    cout << "necongruente";
-            else
-                if(b == z)
-                    if(c == y)
-                        cout << "congruente";
-                    else
-                        cout << "necongruente";
-                else
-                    cout << "necongruente";
+    else {
+        sort(a + 1, a + 4);
+        sort(b + 1, b + 4);
+        for(int i = 1; i <= 3; i++)
+            if(a[i] != b[i]){
+                ok = false;
+                break;
+            }
+        if(ok)
+            cout << "congruente";
         else
-            if(a == y)
-                if(b == x)
-                    if(c == z)
-                        cout << "congruente";
-                    else
-                        cout << "necongruente";
-                else
-                    if(b == z)
-                        if(c == x)
-                            cout << "congruente";
-                        else
-                            cout << "necongruente";
-                    else
-                        cout << "necongruente";
-            else
-                if(a == z)
-                    if(b == x)
-                        if(c == y)
-                            cout << "congruente";
-                        else
-                            cout << "necongruente";
-                    else
-                        if(b == y)
-                            if(c == x)
-                                cout << "congruente";
-                            else
-                                cout << "necongruente";
-                        else
-                            cout << "necongruente";
+            cout << "necongruente";
+    }
+
     return 0;
 }

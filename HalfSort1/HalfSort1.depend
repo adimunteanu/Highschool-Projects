@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507382584 source:e:\codeblocks projects\halfsort1\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

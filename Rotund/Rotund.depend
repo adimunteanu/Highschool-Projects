@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507383670 source:e:\codeblocks projects\rotund\main.cpp
+	<iostream>
+	<fstream>
+

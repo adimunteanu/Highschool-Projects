@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510424338 source:e:\codeblocks projects\permrep\main.cpp
+	<fstream>
+	<cstring>
+

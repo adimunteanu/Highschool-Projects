@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510934855 source:e:\codeblocks projects\lav_problema_backtracking_turn\main.cpp
+	<iostream>
+	<fstream>
+

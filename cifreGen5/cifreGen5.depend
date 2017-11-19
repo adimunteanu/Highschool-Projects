@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511013201 source:e:\codeblocks projects\cifregen5\main.cpp
+	<iostream>
+	<algorithm>
+

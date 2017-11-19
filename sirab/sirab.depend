@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511037794 source:e:\codeblocks projects\sirab\main.cpp
+	<fstream>
+	<iostream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511010036 source:e:\codeblocks projects\lav_problema_backtracking_nsir\main.cpp
+	<iostream>
+	<algorithm>
+	<cmath>
+

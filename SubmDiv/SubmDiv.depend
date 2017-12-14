@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511535289 source:e:\codeblocks projects\submdiv\main.cpp
+	<fstream>
+	<algorithm>
+	<iostream>
+

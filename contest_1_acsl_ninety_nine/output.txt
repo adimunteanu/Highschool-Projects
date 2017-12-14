@@ -1,0 +1,5 @@
+106 dealer
+100 player
+110 player
+103 dealer
+109 dealer

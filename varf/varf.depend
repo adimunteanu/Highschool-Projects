@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511537804 source:e:\codeblocks projects\varf\main.cpp
+	<fstream>
+	<algorithm>
+	<iostream>
+

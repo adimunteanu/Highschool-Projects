@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513272707 source:e:\codeblocks projects\fazan\main.cpp
+	<fstream>
+	<cstring>
+

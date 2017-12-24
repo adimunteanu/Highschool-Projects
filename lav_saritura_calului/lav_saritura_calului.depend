@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513938852 source:e:\codeblocks projects\lav_saritura_calului\main.cpp
+	<iostream>
+	<fstream>
+

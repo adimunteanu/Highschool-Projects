@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525098527 source:e:\codeblocks projects\snooker1\main.cpp
+	<iostream>
+	<fstream>
+

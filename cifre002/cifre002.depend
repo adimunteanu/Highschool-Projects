@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525814137 source:e:\codeblocks projects\cifre002\main.cpp
+	<fstream>
+	<iostream>
+

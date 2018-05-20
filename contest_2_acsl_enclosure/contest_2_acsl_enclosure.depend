@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1517003347 source:e:\codeblocks projects\contest_2_acsl_enclosure\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<cctype>
+

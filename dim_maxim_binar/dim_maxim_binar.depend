@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525095681 source:e:\codeblocks projects\dim_maxim_binar\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

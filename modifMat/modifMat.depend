@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516295098 source:e:\codeblocks projects\modifmat\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+

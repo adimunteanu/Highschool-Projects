@@ -1,30 +1,18 @@
 #include <iostream>
-#include <fstream>
 
 using namespace std;
 
+int n, s;
 int a[100][100];
+
 
 int main()
 {
-    ifstream fin("test.in");
-    int n, m, i, j;
+    cin >> n;
 
-    fin >> n >> m;
-
-    for(i=1; i<=n; i++)
-        for(j=1; j<=m; j++)
-            fin >> a[i][j];
-
-    for(i=1; i<=n; i++)
-    {
-        for(j=1; j<=m; j++) {
-            a[i][j]++;
-            cout << a[i][j] << " ";
-        }
-        cout << '\n';
-    }
-
+    for(int i = 1; i <= n ; i++)
+        for(int j = 1; j <= n ; j++)
+            a[i][j] = 1;
 
     return 0;
 }

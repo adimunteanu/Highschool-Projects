@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526405042 source:e:\codeblocks projects\cautare binara\main.cpp
+	<iostream>
+	<fstream>
+

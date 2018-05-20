@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1518177955 source:e:\codeblocks projects\fast-food\main.cpp
+	<iostream>
+	<fstream>
+

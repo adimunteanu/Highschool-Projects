@@ -1,4 +1,5 @@
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -9,8 +10,8 @@ ofstream fout("permutari1.out");
 void afisare()
 {
     for(int i = 1; i <= n; i++)
-        fout << sol[i] << " ";
-    fout << "\n";
+        cout << sol[i] << " ";
+    cout << "\n";
 }
 
 int ok(int k)
@@ -36,7 +37,7 @@ void backtrack(int k)
 
 int main()
 {
-    fin >> n;
+    cin >> n;
     backtrack(1);
     return 0;
 }

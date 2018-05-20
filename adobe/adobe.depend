@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516299044 source:e:\codeblocks projects\adobe\main.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+

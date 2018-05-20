@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1521892524 source:e:\codeblocks projects\test_accesare_caractere_string\main.cpp
+	<iostream>
+	<string>
+

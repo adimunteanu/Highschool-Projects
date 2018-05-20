@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520767812 source:e:\codeblocks projects\subarbore\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

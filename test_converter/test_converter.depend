@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1521825477 source:e:\codeblocks projects\test_converter\main.cpp
+	<iostream>
+	<string>
+

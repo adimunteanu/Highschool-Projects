@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525360393 source:e:\codeblocks projects\divizori\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

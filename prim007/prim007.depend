@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525701502 source:e:\codeblocks projects\prim007\main.cpp
+	<iostream>
+	<fstream>
+

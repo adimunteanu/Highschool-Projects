@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1519497295 source:e:\codeblocks projects\acsl_contest3_walk\main.cpp
+	<fstream>
+	<string>
+

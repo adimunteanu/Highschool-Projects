@@ -1,0 +1,62 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream fin ("sudoku.in");
+ofstream fout("sudoku.out");
+
+class Submatrix{
+    public:
+        int missing_vals[10];
+        int empty_spaces[2][10];
+        int number_empty_spaces;
+};
+
+Submatrix submatrix[10];
+int table[10][10];
+
+void scan_submatrix(int lin_i, int col_i, int lin_f, int col_f, int submatrix_index)
+{
+    int recurence[10];
+    for(int i = 1; i <= 9; i++)
+        recurence[i] = 0;
+    int nr = 0;
+
+    for(int i = lin_i; i <= lin_f; i++)
+        for(int j = col_i; j <= col_f; j++)
+            if(table[i][j] == 0){
+                nr++;
+                submatrix[submatrix_index].empty_spaces[0][nr] = i;
+                submatrix[submatrix_index].empty_spaces[1][nr] = j;
+            } else {
+                recurence[table[i][j]]++;
+            }
+
+    nr = 0;
+    for(int i = 1; i <= 9; i++)
+        if(recurence[i] == 0){
+            nr++;
+            submatrix[submatrix_index].missing_vals[nr] = i;
+        }
+
+    submatrix[submatrix_index].number_empty_spaces = nr;
+}
+
+int main()
+{
+    for(int i = 1; i <= 9; i++)
+        for(int j = 1; j <= 9; j++)
+            fin >> table[i][j];
+    scan_submatrix(1, 1, 3, 3, 1);
+    scan_submatrix(1, 4, 3, 6, 2);
+    scan_submatrix(1, 7, 3, 9, 3);
+    scan_submatrix(4, 1, 6, 3, 4);
+    scan_submatrix(4, 4, 6, 6, 5);
+    scan_submatrix(4, 7, 6, 9, 6);
+    scan_submatrix(7, 1, 9, 3, 7);
+    scan_submatrix(7, 4, 9, 6, 8);
+    scan_submatrix(7, 7, 9, 9, 9);
+
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1519919802 source:e:\codeblocks projects\subgraf\main.cpp
+	<fstream>
+	<iostream>
+

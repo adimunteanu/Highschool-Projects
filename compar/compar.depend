@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525183611 source:e:\codeblocks projects\compar\main.cpp
+	<fstream>
+	<iostream>
+	<cstring>
+

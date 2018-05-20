@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516472594 source:e:\codeblocks projects\decodificare\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

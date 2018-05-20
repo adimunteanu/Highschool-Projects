@@ -10,10 +10,10 @@ int a[101][101], b[101][101], pas_max = 0, n, m, dl[8]={-2,-1,1,2,2,1,-1,-2}, dc
 
 
 
-void set_matrix()
+void set_matrix(int pas)
 {
     int i,j;
-    for(i=1; i<=n; i++)
+    for(i=1; i <= n; i++)
     {
         for(j = 1; j <= m; j++)
         {
@@ -23,6 +23,7 @@ void set_matrix()
                 b[i][j] = a[i][j];
         }
     }
+    pas_max = pas;
 }
 
 
@@ -30,22 +31,20 @@ void set_matrix()
 void backk(int x, int y, int pas)
 {
     if(x == n && y == m && pas > pas_max)
-        set_matrix();
+        set_matrix(pas);
     else
     {
         for(int i = 0; i < 8; i++)
         {
-            if(!ok){
-                int xx = x + dl[i];
-                int yy = y + dc[i];
-                if(xx <= n + 1 and xx >= 0 and yy <= m + 1 and yy >= 0)
+            int xx = x + dl[i];
+            int yy = y + dc[i];
+            if(xx <= n + 1 and xx >= 0 and yy <= m + 1 and yy >= 0)
+            {
+                if(a[xx][yy] == 0)
                 {
-                    if(a[xx][yy] == 0)
-                    {
-                        a[xx][yy] = pas;
-                        backk(xx, yy, pas+1);
-                        a[xx][yy] = 0;
-                    }
+                    a[xx][yy] = pas;
+                    backk(xx, yy, pas+1);
+                    a[xx][yy] = 0;
                 }
             }
         }
@@ -85,17 +84,13 @@ int main()
 
     backk(1, 1, 2);
 
-    if(!ok)
+    for(i=1; i<=n; i++)
     {
-        int i,j;
-        for(i=1; i<=n; i++)
+        for(j = 1; j <= m; j++)
         {
-            for(j = 1; j <= m; j++)
-            {
-                fout << 0 << " ";
-            }
-            fout<<"\n";
+            fout << b[i][j] << " ";
         }
+        fout<<"\n";
     }
     return 0;
 }

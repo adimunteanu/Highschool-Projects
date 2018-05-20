@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1515351406 source:e:\codeblocks projects\sudoku\main.cpp
+	<fstream>
+

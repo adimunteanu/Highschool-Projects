@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525359547 source:e:\codeblocks projects\countbits\main.cpp
+	<iostream>
+	<fstream>
+

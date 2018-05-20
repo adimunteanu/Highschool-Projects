@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1519923688 source:e:\codeblocks projects\bipartit\main.cpp
+	<fstream>
+	<iostream>
+

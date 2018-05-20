@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523828044 source:e:\codeblocks projects\rezervatie\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<algorithm>
+

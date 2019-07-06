@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542460660 source:e:\codeblocks projects\cezar\main.cpp
+	<iostream>
+	<cstring>
+

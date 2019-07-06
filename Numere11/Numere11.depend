@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539799755 source:e:\codeblocks projects\numere11\main.cpp
+	<iostream>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539965756 source:e:\codeblocks projects\anagrame\main.cpp
+	<iostream>
+	<cstring>
+	<algorithm>
+

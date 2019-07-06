@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544980810 source:e:\codeblocks projects\python dev problem\main.cpp
+	<iostream>
+	<string>
+

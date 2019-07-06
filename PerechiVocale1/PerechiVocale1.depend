@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540060469 source:e:\codeblocks projects\perechivocale1\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

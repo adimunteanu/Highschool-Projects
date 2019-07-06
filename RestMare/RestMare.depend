@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540473432 source:e:\codeblocks projects\restmare\main.cpp
+	<iostream>
+	<fstream>
+

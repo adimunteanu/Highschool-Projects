@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542531265 source:e:\codeblocks projects\cuvinte_pare\main.cpp
+	<iostream>
+	<cstring>
+

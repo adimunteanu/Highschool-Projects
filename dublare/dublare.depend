@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542532681 source:e:\codeblocks projects\dublare\main.cpp
+	<iostream>
+	<cstring>
+

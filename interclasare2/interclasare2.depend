@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1561487587 source:e:\codeblocks projects\interclasare2\main.cpp
+	<iostream>
+	<fstream>
+

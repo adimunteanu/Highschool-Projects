@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540155776 source:e:\codeblocks projects\eliminarespatii\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

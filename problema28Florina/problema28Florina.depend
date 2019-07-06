@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539696915 source:e:\codeblocks projects\problema28florina\main.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+

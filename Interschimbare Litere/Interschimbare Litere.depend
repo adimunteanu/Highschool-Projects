@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539963770 source:e:\codeblocks projects\interschimbare litere\main.cpp
+	<iostream>
+	<cstring>
+
